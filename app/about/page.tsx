@@ -16,12 +16,14 @@ import {
   GraduationCap,
   Building
 } from "lucide-react";
+import Navigation from "@/components/useNavigation";
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b">
+        <Navigation />
+      {/* <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <Link href="/" className="flex items-center text-blue-600 hover:text-blue-800">
@@ -41,7 +43,7 @@ export default function AboutPage() {
             </nav>
           </div>
         </div>
-      </header>
+      </header> */}
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-600 to-cyan-600 text-white py-20">

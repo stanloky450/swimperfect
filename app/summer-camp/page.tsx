@@ -3,16 +3,18 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Trophy, Users, BookOpen, Waves, Code, Heart, ArrowLeft, Calendar, Target, Star, Gift } from "lucide-react";
+import Navigation from "@/components/useNavigation";
 
 export default function SummerCampPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
       {/* Header */}
-      <header className="bg-white shadow-sm">
+        <Navigation />
+      {/* <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <Link href="/" className="inline-flex items-center text-blue-600 hover:text-blue-800">
-              {/* <ArrowLeft className="h-4 w-4 mr-2" /> */}
+            
               <Image
                 src="/swimp.jpg"
                 alt="Swim Perfect Limited"
@@ -20,22 +22,17 @@ export default function SummerCampPage() {
                 height={50}
                 className="h-13 w-13 rounded-md mr-3"
               />
-                {/* <div>
-                <h1 className="text-2xl font-bold text-gray-900">Swim Perfect</h1>
-                <p className="text-sm text-gray-600">Limited</p>
-              </div> */}
+               
             </Link>
             
             <div className="flex items-center">
               <Trophy className="h-8 w-8 text-blue-600 mr-3" />
               <h1 className="text-2xl font-bold text-gray-900">AQUATECH  2025</h1>
             </div>
-            {/* <Link href="/admin/login">
-              <Button variant="outline">Admin Login</Button>
-            </Link> */}
+           
           </div>
         </div>
-      </header>
+      </header> */}
 
       {/* Hero Section */}
       <section className="py-20">

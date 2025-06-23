@@ -19,12 +19,14 @@ import {
   Heart,
   Calendar
 } from "lucide-react";
+import Navigation from "@/components/useNavigation";
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b sticky top-0 z-50">
+       <Navigation />
+      {/* <header className="bg-white shadow-sm border-b sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <Link href="/" className="flex items-center">
@@ -37,10 +39,7 @@ export default function HomePage() {
                 priority
               />
             </Link>
-              {/* <div>
-                <h1 className="text-2xl font-bold text-gray-900">Swim Perfect</h1>
-                <p className="text-sm text-gray-600">Limited</p>
-              </div> */}
+            
             <nav className="hidden md:flex space-x-8">
               <Link href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">
                 Services
@@ -54,13 +53,11 @@ export default function HomePage() {
               <Link href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">
                 Contact
               </Link>
-              {/* <Link href="/admin/login">
-                <Button variant="outline" size="sm">Admin</Button>
-              </Link> */}
+           
             </nav>
           </div>
         </div>
-      </header>
+      </header> */}
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-cyan-600 text-white py-20 overflow-hidden">
